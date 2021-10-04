@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+    </style>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Ephesis', cursive;
+        }
+        body{
+            width: 100%;
+            height: auto;
+            background-color: lightpink;
+        }
+        .container{
+            width: 100%;
+            height: 500vh;
+            display: flex;
+            flex-direction: column;
+        }
+        h2{
+            text-align: center;
+            margin-top: 15px;
+            font-size: 10vh;
+
+
+        }
+        .div1{
+            width: 100%;
+            height: 33vh;
+            
+        }
+        .div1 .left{
+            width: 48%;
+            height: 20vh;
+            float:left;
+
+        }
+        .div1 .left img{
+            width: 656px;
+            margin: 10px 15px;
+
+        
+        }
+        .div1 .right{
+            width: 48%;
+            height: 33vh;
+            float: right;
+            
+
+        }
+        .div1 .right p{
+            font-size:31px;
+            margin: 20px 15px;
+            align-items: center;
+
+        }
+        .div2{
+            margin-top: 50vh;
+            width: 100%;
+            height: 33vh;
+            
+        }
+        .div2 .left{
+            width: 48%;
+            height: 20vh;
+            float:left;
+
+        }
+        .div2 .right img{
+            right: 0;
+            width: 630px;
+            margin: 10px 0px;
+
+        
+        }
+        .div2 .right{
+            width: 48%;
+            height: 33vh;
+            float: right;
+            
+
+        }
+        .div2 .left p{
+            font-size:31px;
+            margin: 20px 15px;
+            align-items: center;
+
+        }
+        .snd-heading{
+            margin-top: 61vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Wedding</h2>
+        <!-- <hr size="5"> -->
+        <div class="div1">
+            <div class="left">
+                <img src="https://images.unsplash.com/photo-1595407753234-0882f1e77954?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Wedding-pic">
+            </div>
+            <div class="right">
+                <p>A wedding is a ceremony where two people are united in marriage. Wedding traditions and customs vary greatly between cultures, ethnic groups, religions, countries, and social classes. Most wedding ceremonies involve an exchange of marriage vows by a couple, presentation of a gift (offering, rings, symbolic item, flowers, money, dress), and a public proclamation of marriage by an authority figure or celebrant. Special wedding garments are often worn, and the ceremony is sometimes followed by a wedding reception. Music, poetry, prayers, or readings from religious texts or literature are also commonly incorporated into the ceremony, as well as superstitious customs.</p>
+            </div>
+        </div>
+        <div class="div2">
+            <div class="left">
+                <p>Weddings in India vary according to the region, the religion, the community and the personal preferences of the bride and groom. They are festive occasions in India, and in most cases celebrated with extensive decorations, colour,dresses, music, dance, costumes and rituals that depend on the community, region and religion of the bride and the groom, as well as their preferences. India celebrates about 10 million weddings per year, of which about 80% are Hindu weddings.</p>
+            </div>
+            <div class="right">
+                <img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="wedding-pic2">
+            </div>
+        </div>
+        <h2 class="snd-heading">Events We  provide --:</h2>
+        <div class="div3">
+
+        </div>
+    </div>
+</body>
+</html>
